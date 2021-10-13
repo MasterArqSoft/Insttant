@@ -75,7 +75,7 @@ namespace CodeFirst.Infrastructure.Seeds
                 new StepToFlow()
                 {
                     Id = 10,
-                    IdFlow = 1,
+                    IdFlow = 2,
                     IdSetp = 3,
                     IdField = 7,
                 },
@@ -103,28 +103,28 @@ namespace CodeFirst.Infrastructure.Seeds
                 new StepToFlow()
                 {
                     Id = 14,
-                    IdFlow = 1,
+                    IdFlow = 2,
                     IdSetp = 4,
                     IdField = 5,
                 },
                 new StepToFlow()
                 {
                     Id = 15,
-                    IdFlow = 1,
+                    IdFlow = 2,
                     IdSetp = 4,
                     IdField = 6,
                 },
                 new StepToFlow()
                 {
                     Id = 16,
-                    IdFlow = 1,
+                    IdFlow = 2,
                     IdSetp = 5,
                     IdField = 5,
                 },
                 new StepToFlow()
                 {
                     Id = 17,
-                    IdFlow = 1,
+                    IdFlow = 2,
                     IdSetp = 5,
                     IdField = 6,
                 }

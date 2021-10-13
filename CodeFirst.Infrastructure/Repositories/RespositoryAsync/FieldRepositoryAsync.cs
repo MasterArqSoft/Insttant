@@ -8,5 +8,6 @@ namespace CodeFirst.Infrastructure.Repositories.RespositoryAsync
         public FieldRepositoryAsync(CodeFirstContext codeFirstContext) : base(codeFirstContext)
         {
         }
+        
     }
 }

@@ -20,13 +20,15 @@ namespace CodeFirst.Core.Features.SecureServices
         {
             List<Task> _task = new();
 
+
             List<StepToFlow> lisStepToFlow = (await _unitOfWork.StepToFlowRepositoryAsync
                                             .GetAsync(
                                                     x => x.Flow.Code == codeFlow,
                                                     null,
                                                     "Step,Flow"
-                                                ).ConfigureAwait(false))
-                                                 .ToList()
+                                                   )
+                                            ).ToList()
+
                                            ;
 
             foreach (var stp in lisStepToFlow.Select(x => x.Step).Distinct())

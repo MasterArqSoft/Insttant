@@ -123,13 +123,13 @@ namespace CodeFirst.Infrastructure.Migrations
                 values: new object[,]
                 {
                     { 1, 1, 1, 1 },
-                    { 15, 6, 1, 4 },
-                    { 14, 5, 1, 4 },
+                    { 15, 6, 2, 4 },
+                    { 14, 5, 2, 4 },
                     { 13, 8, 2, 3 },
                     { 12, 6, 2, 3 },
                     { 11, 5, 2, 3 },
-                    { 10, 7, 1, 3 },
-                    { 16, 5, 1, 5 },
+                    { 10, 7, 2, 3 },
+                    { 16, 5, 2, 5 },
                     { 9, 6, 1, 2 },
                     { 7, 7, 1, 1 },
                     { 6, 6, 1, 1 },
@@ -138,7 +138,7 @@ namespace CodeFirst.Infrastructure.Migrations
                     { 3, 3, 1, 1 },
                     { 2, 2, 1, 1 },
                     { 8, 5, 1, 2 },
-                    { 17, 6, 1, 5 }
+                    { 17, 6, 2, 5 }
                 });
 
             migrationBuilder.CreateIndex(

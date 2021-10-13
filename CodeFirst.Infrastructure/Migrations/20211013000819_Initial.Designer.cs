@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CodeFirst.Infrastructure.Migrations
 {
     [DbContext(typeof(CodeFirstContext))]
-    [Migration("20211010181634_Initial")]
+    [Migration("20211013000819_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -297,7 +297,7 @@ namespace CodeFirst.Infrastructure.Migrations
                         {
                             Id = 10,
                             IdField = 7,
-                            IdFlow = 1,
+                            IdFlow = 2,
                             IdSetp = 3
                         },
                         new
@@ -325,28 +325,28 @@ namespace CodeFirst.Infrastructure.Migrations
                         {
                             Id = 14,
                             IdField = 5,
-                            IdFlow = 1,
+                            IdFlow = 2,
                             IdSetp = 4
                         },
                         new
                         {
                             Id = 15,
                             IdField = 6,
-                            IdFlow = 1,
+                            IdFlow = 2,
                             IdSetp = 4
                         },
                         new
                         {
                             Id = 16,
                             IdField = 5,
-                            IdFlow = 1,
+                            IdFlow = 2,
                             IdSetp = 5
                         },
                         new
                         {
                             Id = 17,
                             IdField = 6,
-                            IdFlow = 1,
+                            IdFlow = 2,
                             IdSetp = 5
                         });
                 });
